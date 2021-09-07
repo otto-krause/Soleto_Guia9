@@ -6,6 +6,7 @@ int main(){
     int t = 0;
     int input;
     while(alumno <= 30){
+        nota = 0;
         while(nota <= 10){
             printf("ingrese la nota %d del alumno %d: ", nota, alumno);
             scanf("%d", &input);
